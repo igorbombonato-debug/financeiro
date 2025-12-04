@@ -5,6 +5,7 @@ if (isset($_SESSION['usuario_id'])) {
     header('Location:index.php');
     exit;
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -31,6 +32,7 @@ if (isset($_SESSION['usuario_id'])) {
         </div>
     </form>
     <p>Não tem conta?<a href="registro.php">Cadastre-se aqui.</a></p>
+    
 </body>
 
 </html>
