@@ -1,18 +1,20 @@
 <?php
-require_once'config.php';
+require_once 'config.php';
 
-if(isset($_SESSION['usuario_id'])){
+if (isset($_SESSION['usuario_id'])) {
     header('Location:index.php');
     exit;
 }
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Sistema Financeiro</title>
 </head>
+
 <body>
     <h1>Login-Sistema financeiro</h1>
     <form action="autenticar.php" method="post">
@@ -27,7 +29,8 @@ if(isset($_SESSION['usuario_id'])){
         <div>
             <button type="submit">Entrar</button>
         </div>
-</form>
-<p>Não tem conta?<a href="registro.php">Cadastre-se aqui.</a></p>
+    </form>
+    <p>Não tem conta?<a href="registro.php">Cadastre-se aqui.</a></p>
 </body>
+
 </html>
