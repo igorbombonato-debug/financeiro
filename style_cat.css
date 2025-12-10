@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    background-image:url(https://alemdatorrez.wordpress.com/wp-content/uploads/2017/03/z-1969.jpg?w=300);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 150px 50px 50px 50px;}
+    h1{
+        color: rgb(0, 255, 255);
+        text-align: center;
+    }
+    h2{
+        color: rgb(246, 247, 247);
+    }
+    h3{
+        color:rgb(0, 0, 0)
+    }
+
+    p{
+        color: rgb(255, 2, 2);
+        font-size: 20px;
+    }
+    a{
+        color: rgb(239, 215, 0);
+        font-size: larger;
+        font-family: initial;
+    }
+    tr{
+        color:green
+    }
+    div p{
+        color:rgb(246, 79, 2)
+    }
+    nav{
+        color: black;
+    }

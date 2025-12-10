@@ -2,40 +2,54 @@
     border: 3px solid rgb(241, 0, 0);
     background-color: rgb(185, 225, 232);
     color: red;
-}
+ } 
 body{
     text-align: center;
-    background-color: rgb(0, 0, 0);
-    background-image:url(a7b9125b83f8a98e1a40ad1336d72851.jpg);
+    background-color: rgb(255, 255, 255);
+    background-image:url(https://img.odcdn.com.br/wp-content/uploads/2023/01/scooby-doo.jpg);
     background-repeat: no-repeat;
     height: 100%;
     background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 155px 155px 155px 155px;
 }
 h1{
-    color: rgb(14, 242, 2);
+    color: rgb(11, 212, 209);
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
 }
 button{
-    color: rgb(14, 242, 0);
-    border-color: rgba(19, 180, 24, 0.148);
-    background-color: rgb(0, 0, 0);
-}
+    color: rgb(3, 4, 4);
+    border-color: rgba(162, 63, 147, 0.148);
+    background-color: rgb(238, 134, 248);
+ border-radius: 10px;
+    text-align: center; }
 div label {
     color: rgb(98, 0, 235);
 }
-
+ 
 #email{
-    background-color:green;
-    border-radius: 10px;
-    
-}
+    background-color:rgba(233, 233, 233, 0.509);
+    border-radius: 10px;}
 
-#senha{
-    background-color: rgba(60, 255, 0, 0.509);
-    border-radius: 10px;
-    
+ #senha{ 
+    background-color: rgba(240, 240, 240, 0.509);
+    border-radius: 10px; 
 }
 div label{
-    color: rgb(1, 237, 40);
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(238, 238, 238);
+    font-style:initial;
+
+}
+a{
+color:rgb(0, 242, 255);
+ font-style:initial;
+}
+
+.container{
+    color:blue
 }
