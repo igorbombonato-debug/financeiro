@@ -50,6 +50,7 @@ $ultimas_transacoes = $stmt_ultimas->fetchAll();
 </head>
 
 <body>
+     <?php include 'navbar.php' ; ?>
     <h1>Sistema Financeiro</h1>
     <div>
         <p>Bem-Vindo,<strong><?php echo $usuario_nome?></strong></p>
@@ -64,15 +65,15 @@ $ultimas_transacoes = $stmt_ultimas->fetchAll();
         </ul>
     </nav>
     <h2>Resumo Financeiro</h2>
-    <div>
+<div class="ret">
         <h3>Receitas</h3>
         <p>R$ <?php echo number_format($total_receitas, 2,',', '.') ?></p>
 </div>
- <div>
+ <div class="ret">
         <h3>Despesas</h3>
         <p>R$ <?php echo number_format($total_despesas, 2,',', '.') ?></p>
 </div>
-<div>
+<div class="ret">
         <h3>Saldo</h3>
         <p>R$ <?php echo number_format($saldo, 2,',', '.') ?></p>
 </div><h2>Últimas Transações</h2>

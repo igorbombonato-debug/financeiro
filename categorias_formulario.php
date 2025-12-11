@@ -39,18 +39,19 @@ if ($id_categoria) {
      <link rel="stylesheet" href="style_catformu.css">
 </head>
 <body>
+     <?php include 'navbar.php' ; ?>
     <div>
         <p>Bem-Vindo,<strong><?php echo $usuario_nome?></strong></p>
         <a href="logout.php">Sair</a>
     </div>
     <?php exibir_mensagem();?>
-    <nav>
+    <!-- <nav>
         <ul>
             <li><a href="index.php">Dashboard</a></li>
             <li><a href="categorias_listar.php">Categorias</a></li>
             <li><a href="transacoes_listar.php">Transações</a></li>
         </ul>
-    </nav>
+    </nav> -->
     <h2><?php echo $categoria ? 'Editar' : 'Nova'; ?> Categoria</h2>
     
     <form action="categorias_salvar.php" method="POST">

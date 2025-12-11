@@ -1,10 +1,16 @@
 body{
     text-align: center;
     background-color: rgb(255, 255, 255);
-    background-image:url(https://alemdatorrez.wordpress.com/wp-content/uploads/2017/03/z-1969.jpg?w=300);
+    background-image:url(https://m.media-amazon.com/images/S/pv-target-images/c29f45a77da724140611b6b2c3b6e40c9a371ae259822c4f17d947d6b0404ec6.jpg);
     background-repeat: no-repeat;
     height: 100%;
     background-position: center;
     background-size: cover;
     margin: 0px;
     padding: 150px 50px 50px 50px;}
+h1{
+    color: rgb(11, 212, 209);
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+    

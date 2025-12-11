@@ -1,8 +1,19 @@
 .mensagem{
-    border: 3px solid rgb(241, 0, 0);
-    background-color: rgb(185, 225, 232);
-    color: red;
+    border: 3px solid rgb(248, 248, 248);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
  } 
+ .mensagem-sucesso{
+    color: green;
+    border-color: azure;
+ }
+ .mensagem-erro{
+    border-color: red;
+    background-color: red;
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+ }
 body{
     text-align: center;
     background-color: rgb(255, 255, 255);
