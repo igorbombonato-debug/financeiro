@@ -4,15 +4,18 @@
     color: rgb(0, 0, 0);
  } 
  .mensagem-sucesso{
-    color: green;
-    border-color: azure;
+    color: rgb(0, 255, 0);
+    border-color: rgb(228, 228, 228);
+    background-color: rgb(3, 75, 51);
+    border-radius: 10px;
+    padding: 10px;
  }
  .mensagem-erro{
     border-color: red;
     background-color: red;
     color: black;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 10px;
  }
 body{
     text-align: center;

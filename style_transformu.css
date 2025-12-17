@@ -1,0 +1,44 @@
+body{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTk7sczCxzs66VyShCSBH14onbNi0i3H03SA&s);
+background-repeat: no-repeat;
+  height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    /* text-align:center; */
+}
+h1{
+color: #07f63f87;
+text-align: center;
+}
+h2{
+    color: rgba(249, 0, 0, 0.354);
+}
+div{
+    color: rgba(213, 192, 160, 0.566);
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    padding: 5px;
+    gap: 8px;
+    border-radius: 20px;
+    border-color: rgba(173, 77, 77, 0.813);
+    background-color: rgba(239, 239, 239, 0.696);
+
+}
+
+div button{
+    color: rgb(255, 0, 0);
+    background-color: #ffffff00;
+    border-radius: 10px;
+  
+}
+p{
+    color: beige;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    color: rgba(242, 18, 2, 0.664);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

@@ -53,6 +53,8 @@ $categorias = $stmt_categorias->fetchAll();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transações - Sistema Financeiro</title>
+       <link rel="stylesheet" href="style_tranlist.css">
+
 </head>
 <body>
     <h1>Sistema Financeiro Pessoal</h1>
